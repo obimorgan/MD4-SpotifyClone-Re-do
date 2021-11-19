@@ -6,7 +6,7 @@
 }
 .vertical-menu {
   width: 200px;
-  height: 270px;
+  height: 200px;
   overflow-y: auto;
 }
 .vertical-menu a:hover {
