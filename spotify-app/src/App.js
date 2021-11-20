@@ -5,8 +5,11 @@ import "./App.css";
 import MyNav from "./Components/MyNav";
 import Hompage from "./Components/Homepage";
 import Goodmorning from "./Components/Goodmorning";
-import TopNavigation from "./Components/TopNavigation"
+import TopNavigation from "./Components/TopNavigation";
+
 import { Row, Col } from "react-bootstrap";
+import Yourshows from "./Components/Yourshows";
+import MiddleCards from "./Components/MiddleCards";
 
 function App() {
   return (
@@ -16,13 +19,19 @@ function App() {
       </Col>
       <Col md={9}>
         <Col>
-        < TopNavigation/>
+          <TopNavigation />
         </Col>
         <Col>
           <Goodmorning />
         </Col>
         <Col>
           <Hompage />
+        </Col>
+        <Col>
+          <Yourshows />
+        </Col>
+        <Col>
+          <MiddleCards />
         </Col>
       </Col>
     </Row>

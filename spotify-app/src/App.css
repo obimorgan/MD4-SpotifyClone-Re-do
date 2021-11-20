@@ -2,7 +2,8 @@
   text-align: center;
 }
 .side-bar {
-  height: 100vh
+  height: 100vh;
+  background-color: black !important;
 }
 .vertical-menu {
   width: 200px;
@@ -22,6 +23,14 @@ body {
   );
   background-repeat: no-repeat;
 }
+.top-card {
+  background:  rgba(88, 85, 85, 0.26);
+  color: aliceblue;
+}
+/* .profile-dropdown {
+  background-color: black !important;
+  border-radius: 40px;
+} */
 
 
 /* .App-logo {
