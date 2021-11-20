@@ -3,11 +3,11 @@ import { Col, Container, Row, Card } from "react-bootstrap"
 const Homepage = () => {
     return (
 
-        <Col className="home-page-body px-n1 mx-n5">
-            <Container fluid>
-                <Row>
+        <div className="home-page-body ">
+            <Container className="ml-n5">
+                <Row >
                     <Col sm={6}md={4} className="my-1" >
-                        <Card style={{ width: '16rem', height: '5rem' }}>
+                        <Card style={{ width: '19rem', height: '5rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -15,7 +15,7 @@ const Homepage = () => {
                         </Card>
                     </Col>
                     <Col sm={6}md={4} className="my-1" >
-                        <Card style={{ width: '16rem', height: '5rem' }}>
+                        <Card style={{ width: '19rem', height: '5rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -23,7 +23,7 @@ const Homepage = () => {
                         </Card>
                     </Col>
                     <Col sm={6}md={4} className="my-1" >
-                        <Card style={{ width: '16rem', height: '5rem' }}>
+                        <Card style={{ width: '19rem', height: '5rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -31,7 +31,7 @@ const Homepage = () => {
                         </Card>
                     </Col>
                     <Col sm={6}md={4} className="my-1" >
-                        <Card style={{ width: '16rem', height: '5rem' }}>
+                        <Card style={{ width: '19rem', height: '5rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -39,7 +39,7 @@ const Homepage = () => {
                         </Card>
                     </Col>
                     <Col sm={6}md={4} className="my-1" >
-                        <Card style={{ width: '16rem', height: '5rem' }}>
+                        <Card style={{ width: '19rem', height: '5rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -47,7 +47,7 @@ const Homepage = () => {
                         </Card>
                     </Col>
                     <Col sm={6}md={4} className="my-1" >
-                        <Card style={{ width: '16rem', height: '5rem' }}>
+                        <Card style={{ width: '19rem', height: '5rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180" />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
@@ -56,7 +56,7 @@ const Homepage = () => {
                     </Col>
                 </Row>
             </Container>
-        </Col>
+        </div>
     )
 }
 export default Homepage
