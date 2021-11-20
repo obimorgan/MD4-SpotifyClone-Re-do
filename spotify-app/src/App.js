@@ -7,34 +7,38 @@ import Hompage from "./Components/Homepage";
 import Goodmorning from "./Components/Goodmorning";
 import TopNavigation from "./Components/TopNavigation";
 
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import Yourshows from "./Components/Yourshows";
 import MiddleCards from "./Components/MiddleCards";
+import Playbar from "./Components/Playbar";
 
 function App() {
   return (
-    <Row>
-      <Col md={3}>
-        <MyNav />
-      </Col>
-      <Col md={9}>
-        <Col>
-          <TopNavigation />
+    <Container fluid>
+      <Row>
+        <Col md={3}>
+          <MyNav />
         </Col>
-        <Col>
-          <Goodmorning />
+        <Col md={9}>
+          <Col>
+            <TopNavigation />
+          </Col>
+          <Col>
+            <Goodmorning />
+          </Col>
+          <Col>
+            <Hompage />
+          </Col>
+          <Col>
+            <Yourshows />
+          </Col>
+          <Col>
+            <MiddleCards />
+          </Col>
         </Col>
-        <Col>
-          <Hompage />
-        </Col>
-        <Col>
-          <Yourshows />
-        </Col>
-        <Col>
-          <MiddleCards />
-        </Col>
-      </Col>
-    </Row>
+      </Row>
+      <Playbar/>
+    </Container>
   );
 }
 

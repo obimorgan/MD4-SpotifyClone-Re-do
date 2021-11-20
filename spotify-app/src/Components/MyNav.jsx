@@ -11,7 +11,7 @@ import lateralus from "./assets/lateralus.jpeg"
 const MyNav = () => {
     return (
         
-            <Col className="ml-n3 px-n1">
+            <Col className="ml-n5">
                 <Navbar bg="dark" variant="dark"
                     className="side-bar flex-column d-lg-block"
                 >

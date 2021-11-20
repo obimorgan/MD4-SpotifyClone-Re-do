@@ -27,6 +27,13 @@ body {
   background:  rgba(88, 85, 85, 0.26);
   color: aliceblue;
 }
+.play-bar {
+  position: fixed;
+  right: 0%;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(28, 26, 26);
+}
 /* .profile-dropdown {
   background-color: black !important;
   border-radius: 40px;
