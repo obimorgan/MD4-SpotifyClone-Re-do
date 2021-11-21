@@ -53,7 +53,16 @@ const Playbar = () => {
                     </div>
                 </Col>
                 <Col md={3} className="d-flex">
+                <div className="m-auto">
+                        <div className="d-flex align-items-center justify-content-center">
+                            <IoIosShuffle />
+                            <CgPlayTrackPrev />
+                            <AiFillPlayCircle />
+                            <CgPlayTrackNext />
+                            <IoIosRepeat />
 
+                        </div>
+                    </div>
                 </Col>
 
                 {/* <Navbar.Brand href="#">Navbar</Navbar.Brand> */}
