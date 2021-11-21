@@ -9,7 +9,7 @@ const TopNavigation = () => {
     return (
         <Container className="mt-3 mb-5">
             <IconContext.Provider value={{ color: "black", size: "2rem" }}>
-                <div className="d-flex justify-content-between ml-n5">
+                <div className="d-flex justify-content-between ">
                     <div>
                         <div>
                             < IoIosArrowDropleftCircle />
